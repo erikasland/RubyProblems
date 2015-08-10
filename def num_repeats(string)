@@ -1,0 +1,15 @@
+def num_repeats(string)
+i = 0 
+j = 0
+while i < string.length
+	
+while j < string.length
+if string[i] == string[j]
+puts string[j]
+j += 1  
+end
+
+i += 1
+end
+end
+end
